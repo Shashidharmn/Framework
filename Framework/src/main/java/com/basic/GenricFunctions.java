@@ -13,7 +13,7 @@ public abstract class GenricFunctions extends Configuration {
 	
 	public void set(String ele,String data)
 	{
-		driver.findElement(By.xpath("asas")).sendKeys(data);
+		driver.findElement(By.xpath(ele)).sendKeys(data);
 		 logger.log(LogStatus.PASS, "Setting value "+data);
 		 System.out.println("Setting value "+data);
 	
