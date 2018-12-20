@@ -25,6 +25,6 @@ public abstract class GenricFunctions extends Configuration {
 	public void selectByValue(String ele,String data)
 	{
 		Select sel=new Select(driver.findElement(By.xpath(ele)));
-		sel.selectByValue(data);
+		sel.selectByVisibleText(data);
 	}
 }
