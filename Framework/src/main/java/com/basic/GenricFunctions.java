@@ -15,6 +15,7 @@ public abstract class GenricFunctions extends Configuration {
 	{
 		driver.findElement(By.xpath(ele)).sendKeys(data);
 		 logger.log(LogStatus.PASS, "Setting value "+data);
+		 System.out.println("Setting value "+data);
 	
 	}
 	public void click(String ele)
